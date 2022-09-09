@@ -22,9 +22,7 @@ const resourceSchema = new Schema({
         type: String
     },
     links: {
-        type: String,
-        required: true,
-        trim: true
+        type: String
     },
 });
 
