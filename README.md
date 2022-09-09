@@ -86,11 +86,11 @@ Run the following commands in the command-line in the root of the folder:
 - Use the navigation bar to navigate through different sections of the Restaurateur app.
 
 # Team Members
-https://github.com/Shuyu-Sun - Shuyu Sun
-https://github.com/Yahplee - Andrew Lee
-https://github.com/randiferous - Daniel Lee
-https://github.com/jonrosenblum - Jon Rosenblum
-https://github.com/Muzan67 - Alejandro Cortez
+- https://github.com/Shuyu-Sun - Shuyu Sun
+- https://github.com/Yahplee - Andrew Lee
+- https://github.com/randiferous - Daniel Lee
+- https://github.com/jonrosenblum - Jon Rosenblum
+- https://github.com/Muzan67 - Alejandro Cortez
 
 # Screenshots of Restaurateur 
 
