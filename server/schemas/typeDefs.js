@@ -25,6 +25,7 @@ const typeDefs = gql`
     resources(resource: ID, resourceName: String): [Resource]
     resource(_id: ID!): Resource
     user: User
+    users: [User]
   }
   type Mutation {
     addUser(
