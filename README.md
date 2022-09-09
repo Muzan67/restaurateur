@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Restaurateur
 
 # Restaurateur - Deployed Application
@@ -95,10 +94,3 @@ https://github.com/Muzan67 - Alejandro Cortez
 
 # Screenshots of Restaurateur 
 
-=======
-# restaurateur
-
-testing push
-
-Andrew
->>>>>>> be8eb9d52b62e6faa1be1882ba20011599795b15
