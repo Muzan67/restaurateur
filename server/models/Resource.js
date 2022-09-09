@@ -1,0 +1,1 @@
+// resourceName, description, estimatedCost, image, links (could be an object with {key: link title, value: link url})
