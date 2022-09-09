@@ -30,6 +30,8 @@ As someone interested in opening a restaurant.
 
 I want an application that will provide resources and instructions on how to do so.
 
+So that I can open up a restaurant.
+
 ```
 
 # Acceptance Criteria
