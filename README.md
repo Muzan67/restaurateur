@@ -26,6 +26,9 @@ https://github.com/Muzan67/restaurateur
 # User Story
 
 ```
+As someone interested in opening a restaurant.
+
+I want an application that will provide resources and instructions on how to do so.
 
 ```
 
