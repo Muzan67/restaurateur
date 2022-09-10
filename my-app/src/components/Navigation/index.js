@@ -5,7 +5,7 @@ import Auth from "../../utils/auth";
 
   function Navigation(props) {
     // eslint-disable-next-line
-    const tabs = ["Certifications", "Permits", "Posters" ];
+    const tabs = ["Certifications", "Permits", "Posters", "Login", "Signin" ];
 
     // if (Auth.loggedIn()) {
     //   return (
