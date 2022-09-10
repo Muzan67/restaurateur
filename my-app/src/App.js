@@ -1,20 +1,19 @@
 import React from "react";
-// import Header from "./components/Header";
+import About from "./components/About"
+// import Navigation from "./components/Navigation";
 // import Footer from "./components/Footer";
-// import "./App.css";
+// import "./index.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
 // import Contact from './components/Contact';
 
 const App = () => {
   return (
-    <>
+    
       <div>
-        {/* <Header />
+        <About />
       </div>
-      <div>
-        <Footer /> */}
-      </div>
-    </>
+    
+  
   );
 };
 export default App;
