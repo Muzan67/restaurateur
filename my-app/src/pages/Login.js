@@ -36,7 +36,7 @@ function Login(props) {
       <h2>Login</h2>
       <form>
         <div className="flex-row space-between my-2">
-          <label htmlFor="email">Email address:</label>
+          <label className="pe-5" htmlFor="email">Email:</label>
           <input
             placeholder="youremail@test.com"
             name="email"
@@ -45,7 +45,7 @@ function Login(props) {
           />
         </div>
         <div className="flex-row space-between my-2">
-          <label htmlFor="pwd">Password:</label>
+          <label className="pe-3" htmlFor="pwd">Password:</label>
           <input
             placeholder="******"
             name="password"
@@ -58,7 +58,7 @@ function Login(props) {
             <p className="error-text">The provided credentials are incorrect</p>
           </div>
         ) : null} */}
-        <div className="flex-row flex-end">
+        <div className="flex-row flex-end py-3">
           <button type="submit">Submit</button>
         </div>
       </form>

@@ -37,7 +37,7 @@ function Signup(props) {
       <h2>Signup</h2>
       <form>
         <div className="flex-row space-between my-2">
-          <label htmlFor="firstName">First Name:</label>
+          <label className="pe-2" htmlFor="firstName">First Name:</label>
           <input
             placeholder="First"
             name="firstName"
@@ -46,7 +46,7 @@ function Signup(props) {
           />
         </div>
         <div className="flex-row space-between my-2">
-          <label htmlFor="lastName">Last Name:</label>
+          <label className="pe-2" htmlFor="lastName">Last Name:</label>
           <input
             placeholder="Last"
             name="lastName"
@@ -55,7 +55,7 @@ function Signup(props) {
           />
         </div>
         <div className="flex-row space-between my-2">
-          <label htmlFor="email">Email:</label>
+          <label className="pe-5" htmlFor="email">Email:</label>
           <input
             placeholder="youremail@test.com"
             name="email"
@@ -64,7 +64,7 @@ function Signup(props) {
           />
         </div>
         <div className="flex-row space-between my-2">
-          <label htmlFor="pwd">Password:</label>
+          <label className="pe-3" htmlFor="pwd">Password:</label>
           <input
             placeholder="******"
             name="password"
@@ -72,7 +72,7 @@ function Signup(props) {
             id="pwd"
           />
         </div>
-        <div className="flex-row flex-end">
+        <div className="flex-row flex-end py-3 ">
           <button type="submit">Submit</button>
         </div>
       </form>
