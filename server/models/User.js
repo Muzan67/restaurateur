@@ -1,6 +1,6 @@
 // email, password, firstName, lastName, restaurantName, foodType, businessType
-// would we need another model for businessType? (ie. Food Truck, Fast Food, Fine Dining). On that note, do we need another model for foodType? Maybe overkill
-// idea: restaurantName, foodType, businessType could all be added through a form on a profile page, after user already creates an account
+
+
 
 const mongoose = require('mongoose');
 const { Schema } = mongoose;
@@ -30,9 +30,11 @@ const userSchema = new Schema({
     restaurantName: {
         type: String
     },
+    // idea: restaurantName, foodType, businessType could all be added through a form on a profile page, after user already creates an account
     foodType: {
         type: String
     },
+    // would we need another model for businessType? (ie. Food Truck, Fast Food, Fine Dining). On that note, do we need another model for foodType? Maybe overkill
     businessType: {
         type: String
     }
