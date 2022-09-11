@@ -1,66 +1,100 @@
 import React from "react";
-// eslint-disable-next-line
-import Auth from "../../utils/auth";
+// // // eslint-disable-next-line
+// // import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
 
-function Navigation(props) {
-  // eslint-disable-next-line
-  const tabs = ["Certifications", "Permits", "Posters",];
+// // function Navigation(props) {
+// //   // eslint-disable-next-line
+// //   const tabs = ["Certifications", "Permits", "Posters"];
 
-  // if (Auth.loggedIn()) {
-  //   return (
-  //     <header className="flex-row px-1">
-  //       <h1>
-  //         <Link to="/">
-  //           Restaurateur
-  //         </Link>
-  //       </h1>
+// //   // if (Auth.loggedIn()) {
+// //   //   return (
+// //   //     <header className="flex-row px-1">
+// //   //       <h1>
+// //   //         <Link to="/">
+// //   //           Restaurateur
+// //   //         </Link>
+// //   //       </h1>
 
-  //       <nav>
-  //         {showNavigation()}
-  //       </nav>
-  //       <ul className="flex-row">
-  //       <li className="mx-1">
-  //         {/* this is not using the Link component to logout or user and then refresh the application to the start */}
-  //         <a href="/" onClick={() => Auth.logout()}>
-  //           Logout
-  //         </a>
-  //       </li>
-  //     </ul>
-  //     </header>
-  //   );
+// //   //       <nav>
+// //   //         {showNavigation()}
+// //   //       </nav>
+// //   //       <ul className="flex-row">
+// //   //       <li className="mx-1">
+// //   //         {/* this is not using the Link component to logout or user and then refresh the application to the start */}
+// //   //         <a href="/" onClick={() => Auth.logout()}>
+// //   //           Logout
+// //   //         </a>
+// //   //       </li>
+// //   //     </ul>
+// //   //     </header>
+// //   //   );
 
-  // } else {
+// //   // } else {
+// //   return (
+// //     <div>
+// //       <ul
+// //         className="navbar navbar-light flex-row"
+// //         style={"background-color: #e3f2fd"}
+// //       >
+// //         {tabs.map((tab) => (
+// //           <h4 className="nav-item" key={tab}>
+// //             <a
+// //               href={"#" + tab.toLowerCase()}
+// //               onClick={() => props.handlePageChange(tab)}
+// //               className={
+// //                 props.currentPage === tab ? "nav-link active" : "nav-link"
+// //               }
+// //             >
+// //               {tab}
+// //             </a>
+// //           </h4>
+// //         ))}
+// //         <li className="mx-1">
+// //           <Link to="/signup">Signup</Link>
+// //         </li>
+// //         <li className="mx-1">
+// //           <Link to="/login">Login</Link>
+// //         </li>
+// //       </ul>
+// //     </div>
+// //   );
+// // }
+// // // }
+
+// // export default Navigation;
+
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+
+function Navigation() {
   return (
-    <div>
-      <ul className="nav flex-row">
-        {tabs.map((tab) => (
-          <h4 className="nav-item" key={tab}>
-            <a
-              href={"#" + tab.toLowerCase()}
-              onClick={() => props.handlePageChange(tab)}
-              className={
-                props.currentPage === tab ? "nav-link active" : "nav-link"
-              }
-            >
-              {tab}
-            </a>
-          </h4>
-        ))}
-        <li className="mx-1">
-            <Link to="/signup">
+    <>
+      <Navbar bg="light" variant="light">
+        <Container>
+          <Navbar.Brand to="/home">Restaurateur</Navbar.Brand>
+          <Nav className="me-auto gap-3">
+            <Link className="text-dark" to="/certifications">
+              Certifications
+            </Link>
+            <Link className="text-dark" to="/permits">
+              Permits
+            </Link>
+            <Link className="text-dark" to="/posters">
+              Posters
+            </Link>
+            <Link className="text-dark" to="/signup">
               Signup
             </Link>
-          </li>
-        <li className="mx-1">
-          <Link to="/login">
-            Login
-          </Link>
-        </li>
-      </ul>
-    </div>
+            <Link className="text-dark" to="/login">
+              Login
+            </Link>
+          </Nav>
+        </Container>
+      </Navbar>
+    </>
   );
 }
-// }
 
 export default Navigation;
