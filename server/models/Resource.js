@@ -1,4 +1,4 @@
-// resourceName, description, estimatedCost, image, links (could be an object with {key: link title, value: link url})
+// resourceName, description, estimatedCost, image
 
 const mongoose = require('mongoose');
 
@@ -21,6 +21,7 @@ const resourceSchema = new Schema({
     image: {
         type: String
     },
+    // links (could be an object with {key: link title, value: link url})
     links: {
         type: String
     },
