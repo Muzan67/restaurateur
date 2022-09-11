@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+#signup-form {
+  width: 40%;
+}
+
+#login-form {
+  width: 40%;
+}
+
+button:hover {
+  background-color: #adb5bd;
+}
