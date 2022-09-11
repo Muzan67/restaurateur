@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Navigation(props) {
   // eslint-disable-next-line
-  const tabs = ["Certifications", "Permits", "Posters", "Signin"];
+  const tabs = ["Certifications", "Permits", "Posters",];
 
   // if (Auth.loggedIn()) {
   //   return (
@@ -33,7 +33,7 @@ function Navigation(props) {
   // } else {
   return (
     <div>
-      <ul className="nav">
+      <ul className="nav flex-row">
         {tabs.map((tab) => (
           <h4 className="nav-item" key={tab}>
             <a
@@ -47,14 +47,11 @@ function Navigation(props) {
             </a>
           </h4>
         ))}
-      </ul>
-
-      <ul className="flex-row">
-        {/* <li className="mx-1">
+        <li className="mx-1">
             <Link to="/signup">
               Signup
             </Link>
-          </li> */}
+          </li>
         <li className="mx-1">
           <Link to="/login">
             Login
