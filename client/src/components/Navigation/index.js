@@ -14,6 +14,9 @@ function Navigation() {
     if (Auth.loggedIn()) {
       return (
         <Nav className="me-auto gap-3">
+          {/* <Link className="text-dark" to="/restaurateur">
+            Restaurateur
+          </Link> */}
           <Link className="text-dark" to="/certifications">
             Certifications
           </Link>
@@ -23,7 +26,7 @@ function Navigation() {
           <Link className="text-dark" to="/posters">
             Posters
           </Link>
-          <Link className="text-dark" onClick={() => Auth.logout()} to="/home">
+          <Link className="text-dark" onClick={() => Auth.logout()} to="/restaurateur">
             Logout
           </Link>
           </Nav>
@@ -46,7 +49,11 @@ function Navigation() {
     <>
       <Navbar bg="light" variant="light">
         <Container>
-          <Navbar.Brand to="/home">Restaurateur</Navbar.Brand>
+          <Navbar.Brand>
+          <Link className="text-dark" to="/restaurateur">
+            Restaurateur
+          </Link>
+          </Navbar.Brand>
           
             {showNav()}
     
