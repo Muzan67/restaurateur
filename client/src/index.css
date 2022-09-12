@@ -43,6 +43,15 @@ h1 {
   font-family: "Indie Flower", cursive;
 }
 
+h4 {
+  margin: auto 50px;
+  padding: 5px;
+  color: #0000ff;
+  font-weight: bolder;
+  font-family: "Indie Flower", cursive;
+}
+
+
 .card {
   /* background-color: #ffff; */
   border-radius: 2px;
