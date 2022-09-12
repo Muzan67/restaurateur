@@ -24,3 +24,32 @@ code {
   font-weight: bolder;
   text-decoration: underline;
 }
+
+/* text styling */
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+p {
+  font-size: 25px;
+  color: #a038dd;
+  font-weight: bold;
+  font-family: "Indie Flower", cursive;
+}
+
+h1 {
+  margin: auto 30px;
+  padding: 10px;
+  color: #0000ff;
+  font-weight: bold;
+  font-family: "Indie Flower", cursive;
+}
+
+.card {
+  /* background-color: #ffff; */
+  border-radius: 2px;
+  height: 400px;
+  margin: 5rem;
+  position: center;
+  width: 600px;
+  box-shadow: 0 3px 6px rgb(213, 24, 24), 0 3px 6px #999;
+  text-align: center;
+}
