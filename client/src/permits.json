@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "name": "Gas Authorization",
+      "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/permits/equipment_use.jpg",
+      "application": "https://www1.nyc.gov/nycbusiness/description/gas-authorizationrestaurant-equipment/apply",
+      "externallink": "https://www1.nyc.gov/nycbusiness/description/gas-authorizationrestaurant-equipment",
+      "description": "A Certificate of Occupancy (CO) states a legal use and/or type of permitted occupancy of a building. New buildings must have a CO, and existing buildings must have a current or amended CO when there is a change in use, egress or type of occupancy."
+    },
+    {
+      "id": 2,
+      "name": "FDNY Approval Letter",
+      "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/permits/fdny_approval_letter.png",
+      "application": "https://www1.nyc.gov/account/login.htm?spName=fires.fdnycloud.org%3A443-SAML&samlContext=us1_8176884_a1f6d1d1-431c-4057-af1a-076dbded9d28",
+      "externallink": "https://www1.nyc.gov/site/fdny/business/all-certifications/certificates-of-approval.page",
+      "description": "The NYC Health Code requires that there be at least one supervisor certified in food protection on site any time a food service establishment and non-retail food processing establishment is operating. Completion of this course and passing of the final exam satisfies that requirement."
+    },
+    {
+      "id": 3,
+      "name": "Food Service Establishment",
+      "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/permits/food_service_establishment_permit.png",
+      "application": "https://a816-hlst.nyc.gov/CitizenAccess/",
+      "externallink": "https://www1.nyc.gov/nycbusiness/description/food-service-establishment-permit",
+      "description": "A Food Service Establishment is a place where food is provided for individual portion service directly to the consumer, whether the food is provided free of charge or sold, and whether the food is consumed on or off the premises."
+    },
+    {
+      "id": 4,
+      "name": "NYC Liquor License",
+      "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/permits/liquor_license.jpeg",
+      "application": "https://www.businessexpress.ny.gov/app/applicationwizard/slaappwizard_onPrem",
+      "externallink": "https://www1.nyc.gov/site/mome/nightlife/liquor-licensing.page",
+      "description": "If your business deals with the importation, manufacture, distribution or sale of alcohol in New York, you need a liquor license. The NY State Liquor Authority issues licenses for selling alcoholic beverages."
+    }
+  ]
