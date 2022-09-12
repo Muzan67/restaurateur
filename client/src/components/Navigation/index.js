@@ -1,7 +1,62 @@
 import React from "react";
-// // // eslint-disable-next-line
-// // import Auth from "../../utils/auth";
+import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
+
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+
+function Navigation() {
+
+
+
+  function showNav() {
+    if (Auth.loggedIn()) {
+      return (
+        <Nav className="me-auto gap-3">
+          <Link className="text-dark" to="/certifications">
+            Certifications
+          </Link>
+          <Link className="text-dark" to="/permits">
+            Permits
+          </Link>
+          <Link className="text-dark" to="/posters">
+            Posters
+          </Link>
+          <Link className="text-dark" onClick={() => Auth.logout()} to="/home">
+            Logout
+          </Link>
+          </Nav>
+      );
+    } else {
+      return (
+        <Nav className="me-auto gap-3">
+          <Link className="text-dark" to="/signup">
+            Signup
+          </Link>
+          <Link className="text-dark" to="/login">
+            Login
+          </Link>
+          </Nav>
+      )
+    }
+  }
+
+  return (
+    <>
+      <Navbar bg="light" variant="light">
+        <Container>
+          <Navbar.Brand to="/home">Restaurateur</Navbar.Brand>
+          
+            {showNav()}
+    
+        </Container>
+      </Navbar>
+    </>
+  )
+}
+
+export default Navigation;
 
 // // function Navigation(props) {
 // //   // eslint-disable-next-line
@@ -63,41 +118,3 @@ import { Link } from "react-router-dom";
 // // // }
 
 // // export default Navigation;
-
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-
-function Navigation() {
-  return (
-    <>
-      <Navbar bg="light" variant="light">
-        <Container>
-          <Navbar.Brand to="/home">Restaurateur</Navbar.Brand>
-          <Nav className="me-auto gap-3">
-            <Link className="text-dark" to="/certifications">
-              Certifications
-            </Link>
-            <Link className="text-dark" to="/permits">
-              Permits
-            </Link>
-            <Link className="text-dark" to="/posters">
-              Posters
-            </Link>
-            <Link className="text-dark" to="/signup">
-              Signup
-            </Link>
-            <Link className="text-dark" to="/login">
-              Login
-            </Link>
-            <Link className="text-dark" to="/home">
-              Logout
-            </Link>
-          </Nav>
-        </Container>
-      </Navbar>
-    </>
-  );
-}
-
-export default Navigation;
