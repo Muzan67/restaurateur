@@ -4,6 +4,7 @@ import Permits from "../Permits";
 import Certifications from "../Certifications";
 import Posters from "../Posters";
 import Restaurateur from "../Restaurateur";
+import Contact from "../Contact";
 
 function Homepage() {
   // state of current page
@@ -20,6 +21,8 @@ function Homepage() {
         return <Certifications />;
       case "Posters":
         return <Posters />;
+      case "Contact":
+        return <Contact />;
       default:
         return <Homepage></Homepage>;
     }
