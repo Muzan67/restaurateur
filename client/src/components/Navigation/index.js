@@ -90,6 +90,9 @@ function Navigation() {
             <Link className="text-dark" to="/login">
               Login
             </Link>
+            <Link className="text-dark" to="/home">
+              Logout
+            </Link>
           </Nav>
         </Container>
       </Navbar>
