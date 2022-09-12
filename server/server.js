@@ -13,13 +13,14 @@ const server = new ApolloServer({
     context: authMiddleware
 });
 
-app.use(express.urlencoded({ extended: false }));
-app.use(express.json());
-
-const startApolloServer = async(typeDefs, resolvers) => {
+const startApolloServer = async (typeDefs, resolvers) => {
     await server.start();
     server.applyMiddleware({ app })
 }
+
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
+
 
 app.use('/images', express.static(path.join(__dirname, '../client/images')));
 
@@ -38,4 +39,4 @@ db.once('open', () => {
     });
 });
 
-startApolloServer(typeDefs, resolvers);
+startApolloServer(typeDefs, resolvers)

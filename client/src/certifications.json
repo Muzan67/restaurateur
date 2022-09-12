@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Certificate Of Occupancy",
+    "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/certificates/certificate_occupancy.jpeg",
+    "application": "https://www1.nyc.gov/assets/buildings/pdf/pw1a.pdf",
+    "externallink": "https://www1.nyc.gov/site/buildings/property-or-business-owner/certificate-of-occupancy.page",
+    "description": "A Certificate of Occupancy (CO) states a legal use and/or type of permitted occupancy of a building. New buildings must have a CO, and existing buildings must have a current or amended CO when there is a change in use, egress or type of occupancy."
+  },
+  {
+    "id": 2,
+    "name": "Food Protection",
+    "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/certificates/food_protection_certificate.PNG",
+    "application": "https://a816-healthpsi.nyc.gov/prjFPC/F2300_Default.aspx",
+    "externallink": "https://www1.nyc.gov/site/doh/business/health-academy/food-protection-online-free.page",
+    "description": "The NYC Health Code requires that there be at least one supervisor certified in food protection on site any time a food service establishment and non-retail food processing establishment is operating. Completion of this course and passing of the final exam satisfies that requirement."
+  },
+  {
+    "id": 3,
+    "name": "Sales Tax Certification",
+    "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/certificates/sales_tax_certificate.jpg",
+    "application": "https://www.businessexpress.ny.gov/app/loginregister/?p_next_page=%2Fcc%2FCore%2FstartIntake%3FlicenseTypeCode%3DDTF17%26appTypeCode%3DINITAPP",
+    "externallink": "https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/how_to_register_for_nys_sales_tax.htm",
+    "description": "The Certificate of Authority gives you the right to collect tax on your taxable sales and to issue and accept most New York State sales tax exemption certificates. Generally, the seller collects the tax from the purchaser and remits it to New York State."
+  }
+]
