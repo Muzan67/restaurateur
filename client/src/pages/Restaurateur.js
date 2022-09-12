@@ -6,7 +6,7 @@ function Restaurateur() {
     <section className="">
       <div className="row justify-content-center" id="about-container">
         <Col lg={6} md={12}>
-          <div className="card">
+          <div className="carta">
           <h1 className="name" style={{ textAlign: "center" }}>
             Welcome To Restaurateur!
           </h1>
