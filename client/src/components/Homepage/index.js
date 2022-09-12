@@ -13,6 +13,8 @@ import Signup from '../../pages/Signup';
 import Restauratuer from '../../pages/Restaurateur';
 import Contact from "../Contact";
 import Certifications from "../Certifications";
+import Posters from "../Posters";
+import Permits from "../Permits";
 
 const httpLink = createHttpLink({
     uri: '/graphql',
@@ -45,6 +47,8 @@ function Homepage() {
                         <Route exact path="/restaurateur" element={<Restauratuer />} />
                         <Route exact path="/contact" element={<Contact />} />
                         <Route exact path="/certifications" element={<Certifications />} />
+                        <Route exact path="/posters" element={<Posters />} />
+                        <Route exact path="/permits" element={<Permits />} />
                     </Routes>
                 </div>
             </Router>
