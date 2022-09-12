@@ -1,8 +1,8 @@
 import React from "react";
 
-import posters from "../../posters.json";
+import permits from "../../permits.json"
 
-function PostersCard(props) {
+function PermitsCard(props) {
     return (
       <div className="card">
         <div className="img-container" height="100px">
@@ -46,18 +46,18 @@ function PostersCard(props) {
     return <div className="wrapper">{props.children}</div>;
   }
   
-  function Posters() {
+  function Permits() {
     return (
       <>
         <div className="project">
           <h2 className="contact" style={{ textAlign: "center" }}>
-            Posters
+            Permits
           </h2>
         </div>
   
         <Wrapper>
-          {posters.map((project) => (
-            <PostersCard
+          {permits.map((project) => (
+            <PermitsCard
               key={project.id}
               name={project.name}
               image={project.image}
@@ -71,5 +71,5 @@ function PostersCard(props) {
     );
   }
   
-  export default Posters;
+  export default Permits;
   

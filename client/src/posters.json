@@ -4,7 +4,7 @@
     "name": "Choking First Aid Poster",
     "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/posters/choking_first_aid.png",
     "application": "https://www1.nyc.gov/assets/doh/downloads/pdf/rii/choking-poster-sample.pdf",
-    "externallink": "https://portal.311.nyc.gov/article/?kanumber=KA-01889",
+    "externallink": "https://www1.nyc.gov/site/doh/business/food-operators/required-signs.page",
     "description": "The Choking Safety Poster protects your employees and guests against any potential accidents. This poster has a step-by-step guide on how to correctly perform the Heimlich Maneuver on those that are choking. As well as what to do in the event a victim becomes unconscious."
   },
   {
@@ -12,7 +12,7 @@
     "name": "Food Allergy Poster",
     "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/posters/first_aid_sign.png",
     "application": "https://www1.nyc.gov/assets/doh/downloads/pdf/rii/allergy-poster-samples.pdf",
-    "externallink": "https://portal.311.nyc.gov/article/?kanumber=KA-01889",
+    "externallink": "https://www1.nyc.gov/site/doh/business/food-operators/required-signs.page",
     "description": "If you operate a restaurant in the City that provides seating for customers, you must post information for your employees about how to protect customers from food allergies in the food they serve. You can also get information about food allergens and posting requirements."
   },
   {
@@ -36,7 +36,7 @@
     "name": "Hand Wash Sign Poster",
     "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/posters/notice_wash_hands.png",
     "application": "https://www.businessexpress.ny.gov/app/applicationwizard/slaappwizard_onPrem",
-    "externallink": "https://www1.nyc.gov/site/mome/nightlife/liquor-licensing.page",
+    "externallink": "https://www.cdc.gov/handwashing/handwashing-kitchen.html",
     "description": "The CDC states that hand washing is one of the best ways to avoid contamination and ensure food safety. Restaurant hand washing signs are helpful reminders of your hygiene and safety policies."
   }
 ]
