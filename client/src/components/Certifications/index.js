@@ -4,7 +4,7 @@ import certifications from "../../certifications.json";
 
 function CertificationsCard(props) {
   return (
-    <div className="card">
+    <div className="card col mx-5">
       <div className="img-container" height="100px">
         <img alt={props.name} src={props.image} height="100%" />
       </div>
@@ -50,7 +50,7 @@ function Certifications() {
   return (
     <>
       <div className="project">
-        <h2 className="contact" style={{ textAlign: "center" }}>
+        <h2 className="contact mt-5 fw-bold" style={{ textAlign: "center" }}>
           Certifications
         </h2>
       </div>

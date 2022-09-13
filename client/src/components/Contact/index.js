@@ -52,12 +52,12 @@ function Contact() {
   };
 
   return (
-    <div>
-
-      <h1 class="contact" style={{ textAlign: "center" }}>
+    <div className="container">
+      <div className="row">
+      <form className="form col-8 mt-5">
+      <h1 className="contact fw-bold" style={{ textAlign: "center" }}>
         Contact Us
       </h1>
-      <form className="form">
         <p>Name</p>
         <input
           value={name}
@@ -84,7 +84,7 @@ function Contact() {
           //   placeholder="message"
         />
         <br></br>
-        <button type="button" onClick={handleFormSubmit}>
+        <button className="mb-3" type="button" onClick={handleFormSubmit}>
           Submit
         </button>
       </form>
@@ -93,6 +93,7 @@ function Contact() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
+      </div>
     </div>
   );
 }

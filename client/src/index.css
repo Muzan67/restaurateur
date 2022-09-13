@@ -39,7 +39,13 @@ h1 {
   padding: 10px;
   color: #040404;
   font-weight: bold;
-  font-family: "Saira Condensed 600";
+  font-family: "Saira Condensed";
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+  font-family: "Saira Condensed";
 }
 
 h4 {
@@ -47,29 +53,25 @@ h4 {
   padding: 5px;
   color: #f8f5f5;
   font-weight: bolder;
-  font-family: "Saira Condensed 600";
+  font-family: "Saira Condensed";
 }
 
 /* card body styling for home-page / landing-page of restaurateur */
 .carta {
   background-color: rgb(240, 239, 247);
   border-radius: 2px;
-  height: 700px;
   margin: 5rem;
   position: center;
-  width: 675px;
   box-shadow: 0 3px 6px rgb(3, 3, 3), 0 3px 6px #999;
   text-align: center;
 }
+
 
 /* card body styling for home-page / landing-page of restaurateur */
 .card {
   /* background-color: #ffff; */
   border-radius: 2px;
-  height: 400px;
-  margin: 5rem;
   position: center;
-  width: 400px;
   box-shadow: 0 3px 6px rgb(3, 3, 3), 0 3px 6px #999;
   text-align: center;
 }
@@ -112,7 +114,7 @@ h4 {
   margin-top: 18px;
   background-color: #ffff;
   font-weight: bolder;
-  max-height: 345px;
+
 }
 
 /* wrapper contains project */
@@ -145,12 +147,12 @@ h4 {
   background-color: white;
   font-weight: bolder;
   color: #040404;
-  height: 400px;
 }
 
 /* styling for contact page */
 .form {
   margin: 50px;
+  background-color:#f8f5f5
 }
 
 /* container size for name and email container on contact page */
@@ -166,6 +168,10 @@ h4 {
 /* extends height to message container on contact page */
 .form > .message-input {
   height: 12rem;
+}
+
+.form p {
+  font-weight: bolder
 }
 
 .page-footer {
