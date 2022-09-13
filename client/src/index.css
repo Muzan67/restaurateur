@@ -1,24 +1,23 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif, "Saira Condensed";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url(./assets/images/hero-page.avif);
   background-repeat: no-repeat;
   background-size: cover;
-  } 
+}
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 /* Our CSS Code */
 
-* header navigation tabs */
-.nav {
+* header navigation tabs */ .nav {
   justify-content: center;
   font-size: 100px;
   font-weight: bolder;
@@ -29,37 +28,37 @@ code {
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
 p {
-  font-size: 25px;
-  color: #a038dd;
-  font-weight: bold;
-  font-family: "Indie Flower", cursive;
+  font-size: 22px;
+  color: #040404;
+  font-weight: light;
+  font-family: "Saira Condensed";
 }
 
 h1 {
   margin: auto 30px;
   padding: 10px;
-  color: #ff00d9;
+  color: #040404;
   font-weight: bold;
-  font-family: "Indie Flower", cursive;
+  font-family: "Saira Condensed 600";
 }
 
 h4 {
   margin: auto 50px;
   padding: 5px;
-  color: #ef0bb6;
+  color: #f8f5f5;
   font-weight: bolder;
-  font-family: "Indie Flower", cursive;
+  font-family: "Saira Condensed 600";
 }
 
 /* card body styling for home-page / landing-page of restaurateur */
 .carta {
-  background-color: #ffff;
+  background-color: rgb(240, 239, 247);
   border-radius: 2px;
   height: 700px;
   margin: 5rem;
   position: center;
   width: 675px;
-  box-shadow: 0 3px 6px rgb(213, 24, 24), 0 3px 6px #999;
+  box-shadow: 0 3px 6px rgb(3, 3, 3), 0 3px 6px #999;
   text-align: center;
 }
 
@@ -71,7 +70,7 @@ h4 {
   margin: 5rem;
   position: center;
   width: 400px;
-  box-shadow: 0 3px 6px rgb(213, 24, 24), 0 3px 6px #999;
+  box-shadow: 0 3px 6px rgb(3, 3, 3), 0 3px 6px #999;
   text-align: center;
 }
 
@@ -81,7 +80,7 @@ h4 {
   overflow: hidden;
   text-align: center;
   border-radius: 10px;
-  box-shadow: 0 3px 6px rgb(213, 24, 24), 0 3px 6px #999;
+  box-shadow: 0 3px 6px rgb(3, 3, 3), 0 3px 6px #999;
 }
 
 /* card container for images */
@@ -97,7 +96,6 @@ h4 {
   padding-right: 1rem;
   font-size: 18px;
   background-color: #ffff;
-  color: #a038dd;
   font-weight: bold;
 }
 
@@ -131,9 +129,10 @@ h4 {
 
 /* background color and text for project title */
 .project-title {
-  background-color: rgb(255, 4, 4);
+  background-color: #040404;
+  color: white;
   font-weight: bolder;
-  font-family: "Indie Flower", cursive;
+  font-family: "Saira Condensed";
 }
 
 /* repository and deployed application icons in card */
@@ -145,7 +144,7 @@ h4 {
 .project-description {
   background-color: white;
   font-weight: bolder;
-  color: #a038dd;
+  color: #040404;
   height: 400px;
 }
 
