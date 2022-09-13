@@ -2,7 +2,6 @@
 
 # Restaurateur - Deployed Application
 
-
 # Restaurateur - Github Repository
 
 https://github.com/Muzan67/restaurateur
@@ -91,11 +90,13 @@ Run the following commands in the command-line in the root of the folder:
 - Use the navigation bar to navigate through different sections of the Restaurateur app.
 
 # Team Members
+
 - https://github.com/Shuyu-Sun - Shuyu Sun
 - https://github.com/Yahplee - Andrew Lee
 - https://github.com/randiferous - Daniel Lee
 - https://github.com/jonrosenblum - Jon Rosenblum
 - https://github.com/Muzan67 - Alejandro Cortez
 
-# Screenshots of Restaurateur 
+# Screenshots of Restaurateur
 
+![image](https://user-images.githubusercontent.com/102841726/189712818-dfce83af-1a55-4373-be02-5c47ea99fd27.png)
