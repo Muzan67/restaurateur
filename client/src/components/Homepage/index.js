@@ -42,6 +42,7 @@ function Homepage() {
                 <div>
                     <Navigation />
                     <Routes>
+                        <Route exact path ="/" element={<Restauratuer />} />
                         <Route exact path="/login" element={<Login />} />
                         <Route exact path="/signup" element={<Signup />} />
                         <Route exact path="/restaurateur" element={<Restauratuer />} />
