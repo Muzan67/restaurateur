@@ -3,14 +3,14 @@ import { Col } from "react-bootstrap";
 
 function Restaurateur() {
   return (
-    <section className="">
+    <section>
       <div className="row justify-content-center" id="about-container">
         <Col lg={6} md={12}>
-          <div className="carta">
-          <h1 className="name" style={{ textAlign: "center" }}>
+          <div className="carta m-5 p-5">
+          <h1 className="name fw-bold" style={{ textAlign: "center" }}>
             Welcome To Restaurateur!
           </h1>
-          <p style={{ textAlign: "center" }}>
+          <p className="fs-4 fw-semibold" style={{ textAlign: "center" }}>
             Our app offers you a Step-by-Step Guide to Opening a Restaurant.
             <br></br>
             Starting a restaurant can be a bit daunting. Our guide’s
