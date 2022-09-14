@@ -71,9 +71,11 @@ h4 {
 .card {
   /* background-color: #ffff; */
   border-radius: 2px;
-  position: center;
+  position: relative;
   box-shadow: 0 3px 6px rgb(3, 3, 3), 0 3px 6px #999;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* card container */
@@ -114,7 +116,11 @@ h4 {
   margin-top: 18px;
   background-color: #ffff;
   font-weight: bolder;
+}
 
+#card-icons {
+  position: absolute;
+  bottom: 0;
 }
 
 /* wrapper contains project */
@@ -147,6 +153,7 @@ h4 {
   background-color: white;
   font-weight: bolder;
   color: #040404;
+  margin-bottom: 50px;
 }
 
 /* styling for contact page */
@@ -155,8 +162,17 @@ h4 {
   background-color:#f8f5f5
 }
 
-/* container size for name and email container on contact page */
 .form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 50%;
+  height: 40px;
+  background-color: #ffff;
+}
+
+/* container size for name and email container on contact page */
+.form textarea {
   display: block;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -177,4 +193,13 @@ h4 {
 .page-footer {
   margin: auto 30px;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .card,
+  .wrapper,
+  header,
+  nav {
+    flex-direction: column;
+  }
 }

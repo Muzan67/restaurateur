@@ -53,46 +53,45 @@ function Contact() {
 
   return (
     <div className="container">
-      <div className="row">
-      <form className="form col-8 mt-5">
-      <h1 className="contact fw-bold" style={{ textAlign: "center" }}>
-        Contact Us
-      </h1>
-        <p>Name</p>
-        <input
-          value={name}
-          name="name"
-          onChange={handleInputChange}
-          type="text"
+      <div className="row d-flex flex-column align-items-center">
+        <form className="form col-8 mt-5 d-flex flex-column align-items-center">
+          <h1 className="contact fw-bold" style={{ textAlign: "center" }}>
+            Contact Us
+          </h1>
+          <p>Name</p>
+          <input
+            value={name}
+            name="name"
+            onChange={handleInputChange}
+            type="text"
           //   placeholder="username"
-        />
-        <p>Email Address</p>
-        <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="email"
+          />
+          <p>Email Address</p>
+          <input
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            type="email"
           //   placeholder="email"
-        />
-        <p> Message</p>
-        <input
-          value={message}
-          name="message"
-          onChange={handleInputChange}
-          type="messagepassword"
-          className="message-input"
-          //   placeholder="message"
-        />
-        <br></br>
-        <button className="mb-3" type="button" onClick={handleFormSubmit}>
-          Submit
-        </button>
-      </form>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
+          />
+          <p> Message</p>
+          <textarea
+                    value={message}
+                    name="message"
+                    onChange={handleInputChange}
+                    type="messagepassword"
+                    className="message-input"
+                    />
+          <br></br>
+          <button className="mb-3" type="button" onClick={handleFormSubmit}>
+            Submit
+          </button>
+        </form>
+        {errorMessage && (
+          <div>
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
       </div>
     </div>
   );
