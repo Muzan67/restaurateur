@@ -15,27 +15,27 @@ function PermitsCard(props) {
               {props.name}
             </p>
           </li>
-          <li>
-            <p className="project-description">{props.description}</p>
-          </li>
-          <li>
-            <div className="project-icons" style={{ textAlign: "center" }}>
-              <a href={props.application}>
-                <img
-                  src="https://img.icons8.com/cute-clipart/134/000000/terms-and-conditions.png"
-                  alt="documentation"
-                  id="port-icon"
-                />
-              </a>
-              <a href={props.externallink}>
-                <img
-                  src="https://img.icons8.com/cute-clipart/128/000000/external-link.png"
-                  alt="externallink"
-                  id="port-icon"
-                />
-              </a>
-            </div>
-          </li>
+            <li className="mb-5 pb-5">
+              <p className="project-description">{props.description}</p>
+            </li>
+            <li id="card-icons">
+              <div className="project-icons" style={{ textAlign: "center" }}>
+                <a href={props.application}>
+                  <img
+                    src="https://img.icons8.com/cute-clipart/134/000000/terms-and-conditions.png"
+                    alt="documentation"
+                    id="port-icon"
+                  />
+                </a>
+                <a href={props.externallink}>
+                  <img
+                    src="https://img.icons8.com/cute-clipart/128/000000/external-link.png"
+                    alt="externallink"
+                    id="port-icon"
+                  />
+                </a>
+              </div>
+            </li>
         </ul>
       </div>
     </div>
@@ -44,8 +44,8 @@ function PermitsCard(props) {
 
 function Wrapper(props) {
   return <div className="wrapper">
-      {props.children}
-    </div>;
+    {props.children}
+  </div>;
 }
 
 function Permits() {
