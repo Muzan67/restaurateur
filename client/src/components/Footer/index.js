@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="page-footer" id="footer" style={{ textAlign: "center" }}>
-      <h4 className="container">(&copy;) 2022 by Restaurateur</h4>
+      <h4 className="container bg-dark bg-opacity-75 col-5">(&copy;) 2022 by Restaurateur</h4>
     </div>
   );
 }

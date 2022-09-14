@@ -40,7 +40,7 @@ function Contact() {
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
     }
     if (!checkPassword(message)) {
-      setErrorMessage(`Thank you for getting in touch! : ${name}`);
+      setErrorMessage(`Thank you for getting in touch ${name}!`);
       return;
     }
     alert(`Hello ${name}`);
@@ -54,7 +54,7 @@ function Contact() {
   return (
     <div className="container">
       <div className="row d-flex flex-column align-items-center">
-        <form className="form col-8 mt-5 d-flex flex-column align-items-center">
+        <form className="form col-8 mt-5 d-flex flex-column align-items-center bg-light bg-opacity-75">
           <h1 className="contact fw-bold" style={{ textAlign: "center" }}>
             Contact Us
           </h1>
@@ -88,8 +88,8 @@ function Contact() {
           </button>
         </form>
         {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
+          <div className="d-flex justify-content-center">
+            <p className="error-text fs-2 fw-bold bg-light bg-opacity-75 px-2">{errorMessage}</p>
           </div>
         )}
       </div>

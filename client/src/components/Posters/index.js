@@ -50,7 +50,7 @@ function Posters() {
   return (
     <>
       <div className="project">
-        <h2 className="contact mt-5 fw-bold" style={{ textAlign: "center" }}>
+        <h2 className="contact mt-5 fw-bold bg-dark bg-opacity-75" style={{ textAlign: "center" }}>
           Posters
         </h2>
       </div>
