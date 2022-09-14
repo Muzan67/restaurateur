@@ -74,6 +74,8 @@ h4 {
   position: relative;
   box-shadow: 0 3px 6px rgb(3, 3, 3), 0 3px 6px #999;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* card container */
@@ -191,4 +193,13 @@ h4 {
 .page-footer {
   margin: auto 30px;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .card,
+  .wrapper,
+  header,
+  nav {
+    flex-direction: column;
+  }
 }
