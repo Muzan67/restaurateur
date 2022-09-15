@@ -25,10 +25,10 @@
     },
     {
       "id": 4,
-      "name": "NYC Liquor License",
+      "name": "Sidewalk Cafe Permit",
       "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/permits/liquor_license.jpeg",
-      "application": "https://www.businessexpress.ny.gov/app/applicationwizard/slaappwizard_onPrem",
-      "externallink": "https://www1.nyc.gov/site/mome/nightlife/liquor-licensing.page",
-      "description": "If your business deals with the importation, manufacture, distribution or sale of alcohol in New York, you need a liquor license. The NY State Liquor Authority issues licenses for selling alcoholic beverages."
+      "application": "https://www1.nyc.gov/nycbusiness/description/sidewalk-cafe-license/apply",
+      "externallink": "https://www1.nyc.gov/html/dot/html/pedestrians/openrestaurants.shtml",
+      "description": "This program will be managed by NYC DOT and allow restaurants to use the sidewalk adjacent and curbside roadway space in front of their businesses for outdoor dining."
     }
   ]
