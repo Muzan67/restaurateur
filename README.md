@@ -104,7 +104,10 @@ The Github page for this project can be accessed using the following link: https
 
 If you have any questions about this projects, please find below our emails:
 
+- Shuyu Sun - stellasunmail@gmail.com
+- alee68@fordham.edu - Andrew Lee
 - daniel.younghwan.lee@gmail.com - Daniel Lee
+- Jon.m.rosenblum@gmail.com - Jon Rosenblum
 - ac.tendo67@gmail.com - Alejandro Cortez
 
 # Screenshots of Restaurateur
