@@ -18,7 +18,7 @@ code {
 /* Our CSS Code */
 
 * header navigation tabs */ .nav {
-  justify-content: center;
+  /* justify-content: center; */
   font-size: 100px;
   font-weight: bolder;
   text-decoration: underline;
@@ -31,6 +31,10 @@ p {
   font-size: 22px;
   color: #040404;
   font-weight: light;
+  font-family: "Saira Condensed";
+}
+
+a {
   font-family: "Saira Condensed";
 }
 
@@ -76,10 +80,12 @@ h4 {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 1.5em;
 }
 
+
 /* card container */
-.card > .img-container {
+.card>.img-container {
   height: 200px;
   overflow: hidden;
   text-align: center;
@@ -88,15 +94,21 @@ h4 {
 }
 
 /* card container for images */
-.card > .img-container > img {
+.card>.img-container>img {
   height: 100%;
   width: 100%;
   padding: 8px;
   background-color: #ffff;
 }
 
+/* text for wrapper content */
+/* .project-description {
+  height: 350px;
+  flex-wrap: wrap
+} */
+
 /* card content - skills */
-.card > .content {
+.card>.content {
   padding-right: 1rem;
   font-size: 18px;
   background-color: #ffff;
@@ -104,7 +116,7 @@ h4 {
 }
 
 /* card content container */
-.card > .content > ul {
+.card>.content>ul {
   list-style-type: none;
   padding-right: 0.5rem;
   padding-left: 1.5rem;
@@ -112,7 +124,7 @@ h4 {
 }
 
 /* card content - skills - li - background */
-.card > .content > ul > li {
+.card>.content>ul>li {
   margin-top: 18px;
   background-color: #ffff;
   font-weight: bolder;
@@ -158,8 +170,7 @@ h4 {
 
 /* styling for contact page */
 .form {
-  margin: 50px;
-  background-color:#f8f5f5
+  margin: 1em;
 }
 
 .form input {
@@ -182,7 +193,7 @@ h4 {
 }
 
 /* extends height to message container on contact page */
-.form > .message-input {
+.form>.message-input {
   height: 12rem;
 }
 
@@ -195,11 +206,19 @@ h4 {
   justify-content: space-between;
 }
 
+
 @media screen and (max-width: 768px) {
+
   .card,
   .wrapper,
   #header,
   nav {
     flex-direction: column;
   }
+  
+  #nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
+

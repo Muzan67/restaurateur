@@ -5,8 +5,8 @@ import posters from "../../posters.json";
 function PostersCard(props) {
   return (
     <div className="card col mx-4">
-      <div className="img-container" height="100px">
-        <img alt={props.name} src={props.image} height="100%" />
+      <div className="img-container" height="100px" >
+        <img alt={props.name} src={props.image} height="100%"/>
       </div>
       <div className="content">
         <ul>
@@ -50,7 +50,7 @@ function Posters() {
   return (
     <>
       <div className="project">
-        <h2 className="contact mt-5 fw-bold" style={{ textAlign: "center" }}>
+        <h2 className="contact mt-5 fw-bold bg-dark bg-opacity-75" style={{ textAlign: "center" }}>
           Posters
         </h2>
       </div>

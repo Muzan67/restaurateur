@@ -13,31 +13,31 @@ function Navigation() {
   function showNav() {
     if (Auth.loggedIn()) {
       return (
-        <Nav className="me-auto gap-3">
-          <Link className="text-dark" to="/certifications">
+        <Nav id="nav-list" className="mx-5 gap-4 d-flex flex-wrap justify-content-center">
+          <Link className="text-dark fs-4 fw-semibold text-decoration-none" to="/certifications">
             Certifications
           </Link>
-          <Link className="text-dark" to="/permits">
+          <Link className="text-dark fs-4 fw-semibold text-decoration-none" to="/permits">
             Permits
           </Link>
-          <Link className="text-dark" to="/posters">
+          <Link className="text-dark fs-4 fw-semibold text-decoration-none" to="/posters">
             Posters
           </Link>
-          <Link className="text-dark" to="/contact">
-            Contact Us
+          <Link className="text-dark fs-4 fw-semibold text-decoration-none" to="/contact">
+            Contact
           </Link>
-          <Link className="text-dark" onClick={() => Auth.logout()} to="/restaurateur">
+          <Link className="text-dark fs-4 fw-semibold text-decoration-none" onClick={() => Auth.logout()} to="/restaurateur">
             Logout
           </Link>
           </Nav>
       );
     } else {
       return (
-        <Nav className="me-auto gap-3">
-          <Link className="text-dark" to="/signup">
+        <Nav className=" mx-5 gap-3">
+          <Link className="text-dark fs-4 fw-semibold text-decoration-none" to="/signup">
             Signup
           </Link>
-          <Link className="text-dark" to="/login">
+          <Link className="text-dark fs-4 fw-semibold text-decoration-none" to="/login">
             Login
           </Link>
           </Nav>
@@ -48,9 +48,9 @@ function Navigation() {
   return (
     <>
       <Navbar bg="light" variant="light">
-        <Container>
-          <Navbar.Brand>
-          <Link className="text-dark" to="/restaurateur">
+        <Container id="nav">
+          <Navbar.Brand className="mx-5">
+          <Link className="text-dark fs-1 fw-semibold text-decoration-none" to="/restaurateur">
             Restaurateur
           </Link>
           </Navbar.Brand>
@@ -64,64 +64,3 @@ function Navigation() {
 }
 
 export default Navigation;
-
-// // function Navigation(props) {
-// //   // eslint-disable-next-line
-// //   const tabs = ["Certifications", "Permits", "Posters"];
-
-// //   // if (Auth.loggedIn()) {
-// //   //   return (
-// //   //     <header className="flex-row px-1">
-// //   //       <h1>
-// //   //         <Link to="/">
-// //   //           Restaurateur
-// //   //         </Link>
-// //   //       </h1>
-
-// //   //       <nav>
-// //   //         {showNavigation()}
-// //   //       </nav>
-// //   //       <ul className="flex-row">
-// //   //       <li className="mx-1">
-// //   //         {/* this is not using the Link component to logout or user and then refresh the application to the start */}
-// //   //         <a href="/" onClick={() => Auth.logout()}>
-// //   //           Logout
-// //   //         </a>
-// //   //       </li>
-// //   //     </ul>
-// //   //     </header>
-// //   //   );
-
-// //   // } else {
-// //   return (
-// //     <div>
-// //       <ul
-// //         className="navbar navbar-light flex-row"
-// //         style={"background-color: #e3f2fd"}
-// //       >
-// //         {tabs.map((tab) => (
-// //           <h4 className="nav-item" key={tab}>
-// //             <a
-// //               href={"#" + tab.toLowerCase()}
-// //               onClick={() => props.handlePageChange(tab)}
-// //               className={
-// //                 props.currentPage === tab ? "nav-link active" : "nav-link"
-// //               }
-// //             >
-// //               {tab}
-// //             </a>
-// //           </h4>
-// //         ))}
-// //         <li className="mx-1">
-// //           <Link to="/signup">Signup</Link>
-// //         </li>
-// //         <li className="mx-1">
-// //           <Link to="/login">Login</Link>
-// //         </li>
-// //       </ul>
-// //     </div>
-// //   );
-// // }
-// // // }
-
-// // export default Navigation;
