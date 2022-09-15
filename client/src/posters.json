@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Choking First Aid Poster",
+    "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/posters/choking_first_aid.png",
+    "application": "https://www1.nyc.gov/assets/doh/downloads/pdf/rii/choking-poster-sample.pdf",
+    "externallink": "https://www1.nyc.gov/site/doh/business/food-operators/required-signs.page",
+    "description": "The Choking Safety Poster protects your employees and guests against any potential accidents. This poster has a step-by-step guide on how to correctly perform the Heimlich Maneuver on those that are choking. As well as what to do in the event a victim becomes unconscious."
+  },
+  {
+    "id": 2,
+    "name": "Food Allergy Poster",
+    "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/feature/alejandro/client/public/images/posters/Food%20Allergy%20Poster.png",
+    "application": "https://www1.nyc.gov/assets/doh/downloads/pdf/rii/allergy-poster-samples.pdf",
+    "externallink": "https://www1.nyc.gov/site/doh/business/food-operators/required-signs.page",
+    "description": "If you operate a restaurant in the City that provides seating for customers, you must post information for your employees about how to protect customers from food allergies in the food they serve. You can also get information about food allergens and posting requirements."
+  },
+  {
+    "id": 3,
+    "name": "Healthy Eating Poster",
+    "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/posters/healthy_eating_poster.png",
+    "application": "https://www1.nyc.gov/assets/doh/downloads/pdf/rii/healthy-eating-information-poster.pdf",
+    "externallink": "https://www1.nyc.gov/site/doh/business/food-operators/required-signs.page",
+    "description": "The Healthy Eating Poster is concerned with enabling people to eat healthily, making healthy choices the easy choices for everyone. Consumers need access to a choice of foods which contribute towards a healthy diet."
+  },
+  {
+    "id": 4,
+    "name": "No Smoking Poster",
+    "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/posters/no_smoking.png",
+    "application": "https://www1.nyc.gov/assets/doh/downloads/pdf/rii/no-smoking-sign.pdf",
+    "externallink": "https://www1.nyc.gov/site/doh/business/food-operators/required-signs.page",
+    "description": "Standard No Smoking Signs remind employees and visitors of your facility's smoking policies, helping to create a safer, cleaner, and healthier workplace. Identify areas where smoking is permitted with Bilingual Designated Smoking Area Signs or prevent workplace accidents with a Danger No Smoking Flammable Liquid Sign."
+  }
+]
