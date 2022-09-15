@@ -19,7 +19,8 @@ https://github.com/Muzan67/restaurateur
 - Technologies Used
 - Installation
 - Usage
-- Team Members
+- Team Members - How to reach us!
+- Questions / Inquiry
 - Screenshots
 
 # User Story
@@ -89,7 +90,7 @@ Run the following commands in the command-line in the root of the folder:
 
 - Use the navigation bar to navigate through different sections of the Restaurateur app.
 
-# Team Members
+# Team Members - How to reach us!
 
 - https://github.com/Shuyu-Sun - Shuyu Sun
 - https://github.com/Yahplee - Andrew Lee
@@ -97,6 +98,33 @@ Run the following commands in the command-line in the root of the folder:
 - https://github.com/jonrosenblum - Jon Rosenblum
 - https://github.com/Muzan67 - Alejandro Cortez
 
-# Screenshots of Restaurateur
+# Questions / Inquiry
 
-![image](https://user-images.githubusercontent.com/102841726/189712818-dfce83af-1a55-4373-be02-5c47ea99fd27.png)
+The Github page for this project can be accessed using the following link: https://github.com/Muzan67/restaurateur
+
+If you have any questions about this projects, please find below our emails:
+
+- daniel.younghwan.lee@gmail.com - Daniel Lee
+- ac.tendo67@gmail.com - Alejandro Cortez
+
+# Screenshots of Restaurateur
+Landing Page - App Deployment
+![image](https://user-images.githubusercontent.com/102841726/190304167-3115cee8-c6d6-42e5-9744-86e859e86b0b.png)
+
+Log-in
+![image](https://user-images.githubusercontent.com/102841726/190304327-b1776618-1c04-4246-9aff-1d34f30810fd.png)
+
+Sign-Up
+![image](https://user-images.githubusercontent.com/102841726/190304488-0bf4f4ce-0ef8-408c-bba2-dafaea297f2a.png)
+
+Restaurateur App - About
+![image](https://user-images.githubusercontent.com/102841726/190304669-b387823d-d095-4bcb-8b8e-8636a8dc925f.png)
+
+Certifications 
+![image](https://user-images.githubusercontent.com/102841726/190304958-b905ba5b-f117-4c92-9480-b814292d3917.png)
+
+Permits
+![image](https://user-images.githubusercontent.com/102841726/190305046-fadd0c89-8977-4a0e-8fa0-05ac02135799.png)
+
+Contact-Us
+![image](https://user-images.githubusercontent.com/102841726/190305623-ed501f8f-9b88-41bb-addd-d6e958746670.png)
