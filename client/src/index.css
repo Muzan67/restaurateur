@@ -198,7 +198,7 @@ h4 {
 @media screen and (max-width: 768px) {
   .card,
   .wrapper,
-  header,
+  #header,
   nav {
     flex-direction: column;
   }
