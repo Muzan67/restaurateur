@@ -101,6 +101,12 @@ h4 {
   background-color: #ffff;
 }
 
+/* text for wrapper content */
+/* .project-description {
+  height: 350px;
+  flex-wrap: wrap
+} */
+
 /* card content - skills */
 .card>.content {
   padding-right: 1rem;

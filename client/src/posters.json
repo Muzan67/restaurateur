@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Food Allergy Poster",
-    "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/posters/first_aid_sign.png",
+    "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/feature/alejandro/client/public/images/posters/Food%20Allergy%20Poster.png",
     "application": "https://www1.nyc.gov/assets/doh/downloads/pdf/rii/allergy-poster-samples.pdf",
     "externallink": "https://www1.nyc.gov/site/doh/business/food-operators/required-signs.page",
     "description": "If you operate a restaurant in the City that provides seating for customers, you must post information for your employees about how to protect customers from food allergies in the food they serve. You can also get information about food allergens and posting requirements."
@@ -30,13 +30,5 @@
     "application": "https://www1.nyc.gov/assets/doh/downloads/pdf/rii/no-smoking-sign.pdf",
     "externallink": "https://www1.nyc.gov/site/doh/business/food-operators/required-signs.page",
     "description": "Standard No Smoking Signs remind employees and visitors of your facility's smoking policies, helping to create a safer, cleaner, and healthier workplace. Identify areas where smoking is permitted with Bilingual Designated Smoking Area Signs or prevent workplace accidents with a Danger No Smoking Flammable Liquid Sign."
-  },
-  {
-    "id": 5,
-    "name": "Hand Wash Sign Poster",
-    "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/posters/notice_wash_hands.png",
-    "application": "https://www.businessexpress.ny.gov/app/applicationwizard/slaappwizard_onPrem",
-    "externallink": "https://www.cdc.gov/handwashing/handwashing-kitchen.html",
-    "description": "The CDC states that hand washing is one of the best ways to avoid contamination and ensure food safety. Restaurant hand washing signs are helpful reminders of your hygiene and safety policies."
   }
 ]

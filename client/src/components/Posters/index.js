@@ -5,8 +5,8 @@ import posters from "../../posters.json";
 function PostersCard(props) {
   return (
     <div className="card col mx-4">
-      <div className="img-container" height="100px">
-        <img alt={props.name} src={props.image} height="100%" />
+      <div className="img-container" height="100px" >
+        <img alt={props.name} src={props.image} height="100%"/>
       </div>
       <div className="content">
         <ul>
