@@ -104,13 +104,14 @@ The Github page for this project can be accessed using the following link: https
 
 If you have any questions about this projects, please find below our emails:
 
-- Shuyu Sun - stellasunmail@gmail.com
+- stellasunmail@gmail.com - Shuyu Sun
 - alee68@fordham.edu - Andrew Lee
 - daniel.younghwan.lee@gmail.com - Daniel Lee
 - Jon.m.rosenblum@gmail.com - Jon Rosenblum
 - ac.tendo67@gmail.com - Alejandro Cortez
 
 # Screenshots of Restaurateur
+
 Landing Page - App Deployment
 ![image](https://user-images.githubusercontent.com/102841726/190304167-3115cee8-c6d6-42e5-9744-86e859e86b0b.png)
 
@@ -123,7 +124,7 @@ Sign-Up
 Restaurateur App - About
 ![image](https://user-images.githubusercontent.com/102841726/190304669-b387823d-d095-4bcb-8b8e-8636a8dc925f.png)
 
-Certifications 
+Certifications
 ![image](https://user-images.githubusercontent.com/102841726/190304958-b905ba5b-f117-4c92-9480-b814292d3917.png)
 
 Permits
