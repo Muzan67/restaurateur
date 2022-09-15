@@ -22,5 +22,13 @@
     "application": "https://www.businessexpress.ny.gov/app/loginregister/?p_next_page=%2Fcc%2FCore%2FstartIntake%3FlicenseTypeCode%3DDTF17%26appTypeCode%3DINITAPP",
     "externallink": "https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/how_to_register_for_nys_sales_tax.htm",
     "description": "The Certificate of Authority gives you the right to collect tax on your taxable sales and to issue and accept most New York State sales tax exemption certificates. Generally, the seller collects the tax from the purchaser and remits it to New York State."
+  },
+  {
+    "id": 4,
+    "name": "Liquor License",
+    "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/certificates/food_protection_certificate.PNG",
+    "application": "https://www.businessexpress.ny.gov/app/applicationwizard/slaappwizard_onPrem",
+    "externallink": "https://sla.ny.gov/get-license",
+    "description": "One of the State Liquor Authority's main functions is issuing licenses and permits. The licensing review process is dependent on the type of application or permit applied for, the current volume of applications, and the completeness and accuracy of the application submitted."
   }
 ]
