@@ -27,6 +27,13 @@ const resolvers = {
 			}
 			throw new AuthenticationError("Not logged in");
 		},
+		contacts: async (parent, { email }) => {
+			const params = email ? { email } : {};
+			return Contact.find(params).sort({ createdAt: -1 });
+		},
+		contact: async (parent, { _id }) => {
+			return Contact.findOne({ _id });
+		},
 	},
 
 	Mutation: {
