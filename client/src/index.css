@@ -34,6 +34,18 @@ p {
 	font-family: "Saira Condensed";
 }
 
+label {
+	font-family: "Saira Condensed";
+}
+
+#signup-form {
+  width: 40%;
+}
+
+#login-form {
+  width: 40%;
+}
+
 a {
 	font-family: "Saira Condensed";
 }
@@ -218,4 +230,12 @@ h4 {
 		flex-wrap: wrap;
 		justify-content: center;
 	}
+
+	#signup-form {
+		width: 90%;
+	  }
+
+	  #login-form {
+		width: 90%;
+	  }
 }
