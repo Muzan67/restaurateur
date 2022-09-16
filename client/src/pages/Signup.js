@@ -31,12 +31,12 @@ function Signup(props) {
   };
 
   return (
-    <div id="signup-form" className="container my-1 bg-light">
+    <div id="signup-form" className="container d-flex flex-column align-items-center bg-light my-5">
 
-      <h2>Signup</h2>
+      <h2 className="text-dark fw-semibold">Signup</h2>
       <form onSubmit={handleFormSubmit}>
         <div className="flex-row space-between my-2">
-          <label className="pe-2" htmlFor="firstName">First Name:</label>
+          <label className="pe-2 fs-4" htmlFor="firstName">First Name:</label>
           <input
             placeholder="First"
             name="firstName"
@@ -46,7 +46,7 @@ function Signup(props) {
           />
         </div>
         <div className="flex-row space-between my-2">
-          <label className="pe-2" htmlFor="lastName">Last Name:</label>
+          <label className="pe-2 fs-4" htmlFor="lastName">Last Name:</label>
           <input
             placeholder="Last"
             name="lastName"
@@ -56,7 +56,7 @@ function Signup(props) {
           />
         </div>
         <div className="flex-row space-between my-2">
-          <label className="pe-5" htmlFor="email">Email:</label>
+          <label className="pe-5 fs-4" htmlFor="email">Email:</label>
           <input
             placeholder="youremail@test.com"
             name="email"
@@ -66,7 +66,7 @@ function Signup(props) {
           />
         </div>
         <div className="flex-row space-between my-2">
-          <label className="pe-3" htmlFor="pwd">Password:</label>
+          <label className="pe-3 fs-4" htmlFor="pwd">Password:</label>
           <input
             placeholder="******"
             name="password"
@@ -75,7 +75,7 @@ function Signup(props) {
             onChange={handleChange}
           />
         </div>
-        <div className="flex-row flex-end py-3 ">
+        <div className="py-3 d-flex flex-column align-items-center">
           <button type="submit">Submit</button>
         </div>
       </form>
