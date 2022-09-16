@@ -20,7 +20,7 @@ const typeDefs = gql`
 	type Contact {
 		_id: ID
 		message: String
-		createdAt: Date
+		createdAt: String
 		email: String
 	}
 	type Auth {
@@ -56,7 +56,7 @@ const typeDefs = gql`
 			estimatedCost: Int
 			image: String
 		): Resource
-		addContact(contactText: String!): Contact
+		addContact(message: String!): Contact
 		login(email: String!, password: String!): Auth
 	}
 `;
