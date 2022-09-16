@@ -76,6 +76,11 @@ Have a high-quality README (with unique name, description, technologies used, sc
 - Javascript
 - HTML5
 - CSS
+- Apollo
+- Graphql
+- Node.js
+- Mongoose
+- JWT
 
 # Installation
 
