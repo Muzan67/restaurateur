@@ -230,4 +230,11 @@ h4 {
 		flex-wrap: wrap;
 		justify-content: center;
 	}
+	#signup-form {
+		width: 90%;
+	  }
+
+	  #login-form {
+		width: 90%;
+	  }
 }
