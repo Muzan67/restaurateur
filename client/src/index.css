@@ -17,7 +17,7 @@ code {
 
 /* Our CSS Code */
 
-* header navigation tabs */ .nav {
+* header navigation tabs * .nav {
 	/* justify-content: center; */
 	font-size: 100px;
 	font-weight: bolder;
@@ -25,13 +25,25 @@ code {
 }
 
 /* text styling */
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"); */
 
 p {
 	font-size: 22px;
 	color: #040404;
 	font-weight: light;
 	font-family: "Saira Condensed";
+}
+
+label {
+	font-family: "Saira Condensed";
+}
+
+#signup-form {
+  width: 40%;
+}
+
+#login-form {
+  width: 40%;
 }
 
 a {
