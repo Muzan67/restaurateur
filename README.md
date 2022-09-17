@@ -4,7 +4,7 @@
 
 ## Description
 
-Welcome to our **Group Project 03 -- Restaurateur**! Starting a restaurant can be a bit daunting. Our instruction app offers you a Step-by-Step Guide to Opening a Restaurant. </br>
+Welcome to our **Group Project 03 -- Restaurateur**! Starting a restaurant can be a bit daunting. Our instruction app offers you a Step-by-Step Guide to Opening a Restaurant in New York City. </br>
 
 After logging in, our app can help you with best practices and resources! Numerous available resources such as Permits, Certifications, and Posters all at your finger tip, which will help you get your restaurant up and running, and ensure you to pass local DOH inspection. You will be on your way to successfully opening your dream restaurant!
 
@@ -26,7 +26,7 @@ After logging in, our app can help you with best practices and resources! Numero
 ## User Story
 
 ```
-AS A user interested in opening a restaurant.
+AS A user interested in opening a restaurant New York City.
 
 I WANT an application that will provide resources and instructions on how to do so.
 
