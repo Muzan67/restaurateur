@@ -156,7 +156,7 @@ If you have any questions about this projects, please find below our emails:
 ![image](https://user-images.githubusercontent.com/102841726/190304958-b905ba5b-f117-4c92-9480-b814292d3917.png)
 
 **Permits**
-![image](https://user-images.githubusercontent.com/102841726/190305046-fadd0c89-8977-4a0e-8fa0-05ac02135799.png)
+![image](https://user-images.githubusercontent.com/102841726/190863309-ab7c96b1-6092-42b8-b915-d4486ef480e1.png)
 
 **Posters**
 ![image](https://user-images.githubusercontent.com/102841726/190863172-cd6e3e94-9e3f-49c3-b450-c22ade4c0c61.png)
