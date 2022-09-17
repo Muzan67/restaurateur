@@ -25,7 +25,7 @@ After logging in, our app can help you with best practices and resources! Numero
 
 ## User Story
 
-```md
+```
 AS A user interested in opening a restaurant.
 
 I WANT an application that will provide resources and instructions on how to do so.
@@ -37,7 +37,7 @@ SO THAT I can access all the necessary materials to open up a restaurant in one 
 
 ## Acceptance Criteria
 
-```md
+```
 OUR project fulfilled the following requirements:
 
 Use React for the front end.
