@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Certificate Of Occupancy",
-    "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/feature/alejandro/client/public/images/certificates/Certificate%20of%20Occupancy.png",
+    "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/certificates/Certificate%20of%20Occupancy.png",
     "application": "https://www1.nyc.gov/assets/buildings/pdf/pw1a.pdf",
     "externallink": "https://www1.nyc.gov/site/buildings/property-or-business-owner/certificate-of-occupancy.page",
     "description": "A Certificate of Occupancy (CO) states a legal use and/or type of permitted occupancy of a building. New buildings must have a CO, and existing buildings must have a current or amended CO when there is a change in use, egress or type of occupancy."
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Sales Tax Certification",
-    "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/feature/alejandro/client/public/images/certificates/Sales-Tax-Certificate-of-Authority.jpg",
+    "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/certificates/Sales-Tax-Certificate-of-Authority.jpg",
     "application": "https://www.businessexpress.ny.gov/app/loginregister/?p_next_page=%2Fcc%2FCore%2FstartIntake%3FlicenseTypeCode%3DDTF17%26appTypeCode%3DINITAPP",
     "externallink": "https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/how_to_register_for_nys_sales_tax.htm",
     "description": "The Certificate of Authority gives you the right to collect tax on your taxable sales, issue & accept most New York State sales tax exemption certificates. Generally, the seller collects the tax from the purchaser & remits it to New York State."
