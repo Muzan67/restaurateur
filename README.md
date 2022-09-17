@@ -1,14 +1,15 @@
 # Restaurateur
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
 Welcome to our **Group Project 03 -- Restaurateur**! Starting a restaurant can be a bit daunting. Our instruction app offers you a Step-by-Step Guide to Opening a Restaurant. </br>
 
-After logging in, our app can help you with best practices and resources! Numerous available resources such as Permits, Certifications, and Posters all at your finger tip, which will help you get your restaurant up and running, and ensure you to pass local DOH inspection. You will be on your way to successfully opening your dream restaurant! 
-
+After logging in, our app can help you with best practices and resources! Numerous available resources such as Permits, Certifications, and Posters all at your finger tip, which will help you get your restaurant up and running, and ensure you to pass local DOH inspection. You will be on your way to successfully opening your dream restaurant!
 
 ## Table of Contents
+
 - [Description](#description)
 - [User Story](#userstory)
 - [Acceptance Criteria](#acceptance-criteria)
@@ -22,7 +23,6 @@ After logging in, our app can help you with best practices and resources! Numero
 - [Questions / Inquiry](#questions--inquiry)
 - [Screenshots](#screenshots-of-restaurateur)
 
-
 ## User Story
 
 ```
@@ -33,7 +33,6 @@ I WANT an application that will provide resources and instructions on how to do 
 SO THAT I can access all the necessary materials to open up a restaurant in one App.
 
 ```
-
 
 ## Acceptance Criteria
 
@@ -65,12 +64,11 @@ Have a clean repository that meets quality coding standards (file structure, nam
 Have a high-quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 ```
 
-
 ## License
+
 This project is licensed under the MIT.</br>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 
 ## Technologies Used
 
@@ -92,7 +90,6 @@ This project is licensed under the MIT.</br>
 - [React-Router-Dom](https://www.npmjs.com/package/react-router-dom)
 - [React-Scripts](https://www.npmjs.com/package/react-scripts)
 
-
 ## Installation
 
 To install this application, clone the code into your terminal for the respective repository.
@@ -102,15 +99,14 @@ Run the following commands in the command-line in the root of the folder:
 1. Run `npm i` to install all the packages.
 2. `npm start` runs the app in development mode.
 3. `npm run build` creates a build directory with a production build of your app.
-4. Your app is ready to be deployed!
-
+4. `npm run develop` Your app is ready to be deployed!
 
 ## Usage
 
 1. When the user is NOT logged in, there are only two options on the navigation bar. Users who have not signed up need to register their name, email, and password to log in. Users who have signed up before can choose to log in directly.
 2. When a user is logged in, they are presented with options on the navigation bar, each featuring Certifications, Permits, Posters, Contact and logout.
 3. When a navigation title is clicked, the user is presented with the corresponding section below the navigation without the page reloading.
-4. User can use the navigation bar to navigate through different sections for their actual needs. 
+4. User can use the navigation bar to navigate through different sections for their actual needs.
 5. Once user enter each section, they can see the credentials required to open a restaurant under different categories.
 6. When a user clicks on 📖 document icon, the page will link to the download page for the material they actually need.
 7. When a user clicks on arrow icon, the page will link to the page for more information.
@@ -124,7 +120,6 @@ https://intense-inlet-07195.herokuapp.com/
 ## Restaurateur - Github Repository
 
 https://github.com/Muzan67/restaurateur
-
 
 ## Team Members - How to reach us!
 
@@ -162,6 +157,9 @@ If you have any questions about this projects, please find below our emails:
 
 **Permits**
 ![image](https://user-images.githubusercontent.com/102841726/190305046-fadd0c89-8977-4a0e-8fa0-05ac02135799.png)
+
+**Posters**
+![image](https://user-images.githubusercontent.com/102841726/190863172-cd6e3e94-9e3f-49c3-b450-c22ade4c0c61.png)
 
 **Contact-Us**
 ![image](https://user-images.githubusercontent.com/102841726/190305623-ed501f8f-9b88-41bb-addd-d6e958746670.png)
