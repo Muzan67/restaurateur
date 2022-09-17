@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "name": "Gas Authorization",
+      "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/permits/equipment_use.jpg",
+      "application": "https://www1.nyc.gov/nycbusiness/description/gas-authorizationrestaurant-equipment/apply",
+      "externallink": "https://www1.nyc.gov/nycbusiness/description/gas-authorizationrestaurant-equipment",
+      "description": "Ansul fire suppression system valves, Range-hood (Ansul) systems must be installed by a Licensed Master Fire Suppression Piping Contractor, who must also schedule to test the system in the presence of the FDNY inspector."
+    },
+    {
+      "id": 2,
+      "name": "FDNY Approval Letter",
+      "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/permits/fdny_approval_letter.png",
+      "application": "https://www1.nyc.gov/account/login.htm?spName=fires.fdnycloud.org%3A443-SAML&samlContext=us1_8176884_a1f6d1d1-431c-4057-af1a-076dbded9d28",
+      "externallink": "https://www1.nyc.gov/site/fdny/business/all-certifications/certificates-of-approval.page",
+      "description": "The Fire Code requires that the manufacturer of any article, equipment or device installed in any facility used in connection with any material or operation needs a Certificate of Approval for the design, installation, operation & maintenance."
+    },
+    {
+      "id": 3,
+      "name": "Food Service Establishment",
+      "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/permits/food_service_establishment_permit.png",
+      "application": "https://a816-hlst.nyc.gov/CitizenAccess/",
+      "externallink": "https://www1.nyc.gov/nycbusiness/description/food-service-establishment-permit",
+      "description": "A Food Service Establishment is a place where food is provided for individual portion service directly to the consumer, whether the food is provided free of charge or sold, and whether the food is consumed on or off the premises."
+    },
+    {
+      "id": 4,
+      "name": "Sidewalk Cafe Permit",
+      "image": "https://raw.githubusercontent.com/Muzan67/restaurateur/develop/client/public/images/permits/open-restaurants-application-detailed-specs.jpg",
+      "application": "https://www1.nyc.gov/nycbusiness/description/sidewalk-cafe-license/apply",
+      "externallink": "https://www1.nyc.gov/html/dot/html/pedestrians/openrestaurants.shtml",
+      "description": "This program will be managed by NYC DOT and allow restaurants to use the sidewalk adjacent and curbside roadway space in front of their businesses for outdoor dining."
+    }
+  ]
