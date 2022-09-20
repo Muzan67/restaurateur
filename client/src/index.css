@@ -1,205 +1,240 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif, "Saira Condensed";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-image: url(./assets/images/hero-page.avif);
-  background-repeat: no-repeat;
-  background-size: cover;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif, "Saira Condensed";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-image: url(./assets/images/hero-page.avif);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
 }
 
 /* Our CSS Code */
 
-* header navigation tabs */ .nav {
-  justify-content: center;
-  font-size: 100px;
-  font-weight: bolder;
-  text-decoration: underline;
+* header navigation tabs * .nav {
+	/* justify-content: center; */
+	font-size: 100px;
+	font-weight: bolder;
+	text-decoration: underline;
 }
 
 /* text styling */
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"); */
 
 p {
-  font-size: 22px;
-  color: #040404;
-  font-weight: light;
-  font-family: "Saira Condensed";
+	font-size: 22px;
+	color: #040404;
+	font-weight: light;
+	font-family: "Saira Condensed";
+}
+
+label {
+	font-family: "Saira Condensed";
+}
+
+#signup-form {
+  width: 40%;
+}
+
+#login-form {
+  width: 40%;
+}
+
+a {
+	font-family: "Saira Condensed";
 }
 
 h1 {
-  margin: auto 30px;
-  padding: 10px;
-  color: #040404;
-  font-weight: bold;
-  font-family: "Saira Condensed";
+	margin: auto 30px;
+	padding: 10px;
+	color: #040404;
+	font-weight: bold;
+	font-family: "Saira Condensed";
 }
 
 h2 {
-  color: white;
-  font-weight: bold;
-  font-family: "Saira Condensed";
+	color: white;
+	font-weight: bold;
+	font-family: "Saira Condensed";
 }
 
 h4 {
-  margin: auto 50px;
-  padding: 5px;
-  color: #f8f5f5;
-  font-weight: bolder;
-  font-family: "Saira Condensed";
+	margin: auto 50px;
+	padding: 5px;
+	color: #f8f5f5;
+	font-weight: bolder;
+	font-family: "Saira Condensed";
 }
 
 /* card body styling for home-page / landing-page of restaurateur */
 .carta {
-  background-color: rgb(240, 239, 247);
-  border-radius: 2px;
-  margin: 5rem;
-  position: center;
-  box-shadow: 0 3px 6px rgb(3, 3, 3), 0 3px 6px #999;
-  text-align: center;
+	background-color: rgb(240, 239, 247);
+	border-radius: 2px;
+	margin: 5rem;
+	position: center;
+	box-shadow: 0 3px 6px rgb(3, 3, 3), 0 3px 6px #999;
+	text-align: center;
 }
-
 
 /* card body styling for home-page / landing-page of restaurateur */
 .card {
-  /* background-color: #ffff; */
-  border-radius: 2px;
-  position: relative;
-  box-shadow: 0 3px 6px rgb(3, 3, 3), 0 3px 6px #999;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
+	/* background-color: #ffff; */
+	border-radius: 2px;
+	position: relative;
+	box-shadow: 0 3px 6px rgb(3, 3, 3), 0 3px 6px #999;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 1.5em;
 }
 
 /* card container */
 .card > .img-container {
-  height: 200px;
-  overflow: hidden;
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: 0 3px 6px rgb(3, 3, 3), 0 3px 6px #999;
+	height: 200px;
+	overflow: hidden;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0 3px 6px rgb(3, 3, 3), 0 3px 6px #999;
 }
 
 /* card container for images */
 .card > .img-container > img {
-  height: 100%;
-  width: 100%;
-  padding: 8px;
-  background-color: #ffff;
+	height: 100%;
+	width: 100%;
+	padding: 8px;
+	background-color: #ffff;
 }
+
+/* text for wrapper content */
+/* .project-description {
+  height: 350px;
+  flex-wrap: wrap
+} */
 
 /* card content - skills */
 .card > .content {
-  padding-right: 1rem;
-  font-size: 18px;
-  background-color: #ffff;
-  font-weight: bold;
+	padding-right: 1rem;
+	font-size: 18px;
+	background-color: #ffff;
+	font-weight: bold;
 }
 
 /* card content container */
 .card > .content > ul {
-  list-style-type: none;
-  padding-right: 0.5rem;
-  padding-left: 1.5rem;
-  background-color: #ffff;
+	list-style-type: none;
+	padding-right: 0.5rem;
+	padding-left: 1.5rem;
+	background-color: #ffff;
 }
 
 /* card content - skills - li - background */
 .card > .content > ul > li {
-  margin-top: 18px;
-  background-color: #ffff;
-  font-weight: bolder;
+	margin-top: 18px;
+	background-color: #ffff;
+	font-weight: bolder;
 }
 
 #card-icons {
-  position: absolute;
-  bottom: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 /* wrapper contains project */
 .wrapper {
-  padding-top: 100px;
-  /* height: 50%; */
-  display: flex;
-  flex-flow: row wrap;
-  padding: 20px;
-  justify-content: space-around;
-  align-content: flex-start;
-  overflow: auto;
+	padding-top: 100px;
+	/* height: 50%; */
+	display: flex;
+	flex-flow: row wrap;
+	padding: 20px;
+	justify-content: space-around;
+	align-content: flex-start;
+	overflow: auto;
 }
 
 /* background color and text for project title */
 .project-title {
-  background-color: #040404;
-  color: white;
-  font-weight: bolder;
-  font-family: "Saira Condensed";
+	background-color: #040404;
+	color: white;
+	font-weight: bolder;
+	font-family: "Saira Condensed";
 }
 
 /* repository and deployed application icons in card */
 #port-icon {
-  flex-flow: row wrap;
+	flex-flow: row wrap;
 }
 
 /* text for wrapper content */
 .project-description {
-  background-color: white;
-  font-weight: bolder;
-  color: #040404;
-  margin-bottom: 50px;
+	background-color: white;
+	font-weight: bolder;
+	color: #040404;
+	margin-bottom: 50px;
 }
 
 /* styling for contact page */
 .form {
-  margin: 50px;
-  background-color:#f8f5f5
+	margin: 1em;
 }
 
 .form input {
-  display: block;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 50%;
-  height: 40px;
-  background-color: #ffff;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 50%;
+	height: 40px;
+	background-color: #ffff;
 }
 
 /* container size for name and email container on contact page */
 .form textarea {
-  display: block;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 50%;
-  height: 40px;
-  background-color: #ffff;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 50%;
+	height: 40px;
+	background-color: #ffff;
 }
 
 /* extends height to message container on contact page */
 .form > .message-input {
-  height: 12rem;
+	height: 12rem;
 }
 
 .form p {
-  font-weight: bolder
+	font-weight: bolder;
 }
 
 .page-footer {
-  margin: auto 30px;
-  justify-content: space-between;
+	margin: auto 30px;
+	justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
-  .card,
-  .wrapper,
-  header,
-  nav {
-    flex-direction: column;
-  }
+	.card,
+	.wrapper,
+	header,
+	nav {
+		flex-direction: column;
+	}
+
+	#nav {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	#signup-form {
+		width: 90%;
+	  }
+
+	  #login-form {
+		width: 90%;
+	  }
 }
