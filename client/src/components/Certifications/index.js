@@ -20,14 +20,14 @@ function CertificationsCard(props) {
 					</li>
 					<li id="card-icons">
 						<div className="project-icons" style={{ textAlign: "center" }}>
-							<a href={props.application}>
+							<a href={props.application} target="_blank">
 								<img
 									src="https://img.icons8.com/cute-clipart/120/000000/terms-and-conditions.png"
 									alt="documentation"
 									id="port-icon"
 								/>
 							</a>
-							<a href={props.externallink}>
+							<a href={props.externallink} target="_blank">
 								<img
 									src="https://img.icons8.com/cute-clipart/120/000000/external-link.png"
 									alt="externallink"
