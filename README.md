@@ -115,7 +115,7 @@ Run the following commands in the command-line in the root of the folder:
 
 ## Restaurateur - Deployed Application
 
-https://intense-inlet-07195.herokuapp.com/
+https://intense-ravine-89236.herokuapp.com/
 
 ## Restaurateur - Github Repository
 
